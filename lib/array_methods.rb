@@ -5,13 +5,13 @@ end
 end
 def find_max_value(array)
   array.each do |max|
-    puts max
+    puts array.max
   end
 end
 
   def find_min_value(array)
     array.min do |mind|
-      puts min
+      puts array.min
     end
   
 end
