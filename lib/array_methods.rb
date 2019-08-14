@@ -19,4 +19,9 @@ end
       
 
 def find_min_value(array)
+  array.each do |element|
+    if element = array.min
+      return element
+    end
+  end
 end
