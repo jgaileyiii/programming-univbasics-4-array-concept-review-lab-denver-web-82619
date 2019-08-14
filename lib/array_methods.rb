@@ -11,6 +11,7 @@ end
 
 def find_max_value(array)
   array.max do |element|
+    if element == array
     return element
  end
 end
