@@ -10,8 +10,16 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.max do |element|
-    if 
+  i = 0
+  array.each do |element|
+    if element < array.max
+      return i
+    end
+    if element = array.max
+      return element
+    end
+  end
+      
 
 def find_min_value(array)
 end
