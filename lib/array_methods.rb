@@ -5,7 +5,7 @@ end
 end
 
 def find_max_value(array)
-  while array.each < array.max
+  
     
 end
 end
