@@ -10,7 +10,7 @@ def find_max_value(array)
 end
 
   def find_min_value(array)
-    array.min do |mind|
+    array.min do |min|
       puts array.min
     end
   
