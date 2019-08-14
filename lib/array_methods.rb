@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-   array.each do |index|
+   array.length do |index|
    puts index
 end
 end
