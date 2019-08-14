@@ -11,10 +11,7 @@ end
 
 def find_max_value(array)
   array.max do |element|
-    if element == array
-    return array
- end
-end
+    if 
 
 def find_min_value(array)
 end
