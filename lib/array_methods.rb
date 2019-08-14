@@ -1,6 +1,10 @@
 def find_element_index(array, value_to_find)
-   array.each do |index|
-   puts index
+   i = 0
+   array.each do |element|
+   if element == value_to_find
+     return i
+   end
+   i += 1
 end
 end
 
