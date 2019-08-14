@@ -4,9 +4,11 @@ def find_element_index(array, value_to_find)
 end
 end
 def find_max_value(array)
-  max_value = 5
-  array.each do {
-    
+  array.max do |index|
+    puts index
+  end
+end
+
   
 
 
