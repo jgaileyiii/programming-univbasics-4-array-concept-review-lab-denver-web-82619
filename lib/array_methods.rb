@@ -5,8 +5,8 @@ end
 end
 
 def find_max_value(array)
-  array.each do |max|
-    puts max
+  while array.each < array.max
+    
 end
 end
 
