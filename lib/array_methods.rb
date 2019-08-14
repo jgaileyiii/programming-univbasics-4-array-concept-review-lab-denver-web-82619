@@ -6,13 +6,13 @@ end
 
 def find_max_value(array)
   array.each do |max|
-    puts array
+    puts max
 end
 end
 
   def find_min_value(array)
     array.each do |min|
-      puts array
+      puts min
     end
   
 end
